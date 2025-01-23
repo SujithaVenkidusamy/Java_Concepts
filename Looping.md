@@ -47,8 +47,8 @@ public class Main
 }
 ```
 
+## 3. Factorial:
 
-Factorial:
 ```java[]
 
  import java.util.*;
@@ -69,8 +69,8 @@ public class Main
 }
 ````
 
+## 4. Multiplication Table:
 
-Multiplication Table:
 ```java[]
 
 
@@ -90,8 +90,8 @@ public class Main
 }
 ````
 
+## 5. Fibonacci Series:
 
-Fibonacci Series:
 ```java[]
 
 
@@ -114,8 +114,8 @@ public class Main
 }
 ````
 
+## 6. Reverse a Number:
 
-Reverse a Number:
 ```java[]
 
 
@@ -135,8 +135,8 @@ public class Main
 }
 ````
 
+## 7. Number of Digits:
 
-Number of Digits:
 ```java[]
 
 
@@ -159,8 +159,8 @@ public class Main
 }
 ````
 
+## 8. Add Even Numbers:
 
-Add Even Numbers:
 ```java[]
 
 import java.util.*;
@@ -182,8 +182,8 @@ public class Main
 }
 ````
 
+## 9. Palindrome:
 
-Palindrome:
 ```java[]
 
 import java.util.*;
@@ -208,8 +208,8 @@ public class Main
 }
 ````
 
+## 10. Strong Number:
 
-Strong Number:
 ```java[]
 
 import java.util.*;
@@ -240,8 +240,8 @@ public class Main
 }  
 ````
 
+## 11. Automorphic Number:
 
-Automorphic Number:
 ```java[]
 
 
@@ -274,8 +274,8 @@ public class Main
 }
 ````
 
+## 12. Adam Number:
 
-Adam Number:
 ```java[]
 
 
@@ -319,14 +319,6 @@ public class Main
 	}  
 }  
 ````
-
-
-Friendly Pair:
-```java[]
-
-
-
-
 
 
 
