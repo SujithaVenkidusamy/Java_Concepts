@@ -47,7 +47,7 @@ public class Main
 }
 ````
 
-## 3. Simple interest calculation:(using void method)
+## 3. Simple interest calculation:
 ````java[]
 
 import java.util.*;
