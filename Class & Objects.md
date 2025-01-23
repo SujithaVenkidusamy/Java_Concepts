@@ -121,7 +121,7 @@ public class Main
 }
 ````
 
-## 6. Class & Constructor:
+## 6. Class & Constructor (Name & Age):
 ````java[]
 
 import java.util.*;
@@ -150,7 +150,7 @@ public class Person
 }
 ````
 
-## 7. Rectangle :
+## 7. Rectangle (Area & Perimeter):
 ````java[]
 
 import java.util.*;
