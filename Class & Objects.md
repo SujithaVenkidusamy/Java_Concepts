@@ -73,8 +73,8 @@ public class Main
 	    double n=s.nextDouble();
 	    System.out.print("Enter the rate of interest:");
 	    double r=s.nextDouble();
-		Main m=new Main();
-		m.simpleinterest(p,n,r);
+	    Main m=new Main();
+	    m.simpleinterest(p,n,r);
 		
 	}
 }
