@@ -42,47 +42,7 @@ public class Main
 }
 ````
 
-## 3. Right angled triangle:
-````java[]
-
-import java.util.*;
-public class Main
-{
-	public static void main(String[] args) {
-	    Scanner s=new Scanner(System.in);
-	    System.out.print("Enter n:");
-	    int n=s.nextInt();
-	    for(int i=1;i<=n;i++){
-	        for(int j=1;j<=i;j++){
-	            System.out.print("* ");
-	        }
-	        System.out.println();
-	    }
-	}
-}
-````
-
-## 4. Inverted right angled triangle :
-````java[]
-
-import java.util.*;
-public class Main
-{
-	public static void main(String[] args) {
-	    Scanner s=new Scanner(System.in);
-	    System.out.print("Enter n:");
-	    int n=s.nextInt();
-	    for(int i=n;i>=1;i--){
-	        for(int j=1;j<=i;j++){
-	            System.out.print("* ");
-	        }
-	        System.out.println();
-	    }
-	}
-}
-````
-
-## 5. Hallow Square:
+## 3. Hallow Square:
 ````java[]
 
 import java.util.*;
@@ -107,6 +67,48 @@ public class Main
 	}
 }
 ````
+
+## 4. Right angled triangle:
+````java[]
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner s=new Scanner(System.in);
+	    System.out.print("Enter n:");
+	    int n=s.nextInt();
+	    for(int i=1;i<=n;i++){
+	        for(int j=1;j<=i;j++){
+	            System.out.print("* ");
+	        }
+	        System.out.println();
+	    }
+	}
+}
+````
+
+## 5. Inverted right angled triangle :
+````java[]
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner s=new Scanner(System.in);
+	    System.out.print("Enter n:");
+	    int n=s.nextInt();
+	    for(int i=n;i>=1;i--){
+	        for(int j=1;j<=i;j++){
+	            System.out.print("* ");
+	        }
+	        System.out.println();
+	    }
+	}
+}
+````
+
+
 
 ## 6. Mirror right angled triangle:
 ````java[]
