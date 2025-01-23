@@ -1,4 +1,7 @@
-Even Numbers:
+### LOOPING STATEMENTS:
+
+## 1. Even Numbers:
+
 ```java[]
 
 import java.util.*;
@@ -17,8 +20,8 @@ public class Main
 	}
 }
 ```
+## 2. Even & Odd numbers:
 
-Even & Odd numbers:
 ```java[]
 
 import java.util.*;
