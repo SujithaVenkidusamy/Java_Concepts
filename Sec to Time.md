@@ -1,3 +1,6 @@
+## Time(Hour, Minute, Seconds):
+````java[]
+
 import java.util.*;
 public class Main
 {
@@ -14,8 +17,11 @@ public class Main
 	   System.out.println("Sec:"+sec);
 	} 
 }
+````
 
-****************************************************
+## Time with Day (Day, Hour, Minute, Seconds):
+````java[]
+
 import java.util.*;
 public class Main
 {
@@ -33,4 +39,5 @@ public class Main
 	   System.out.println("Sec:"+sec);
 	} 
 }
+````
 
