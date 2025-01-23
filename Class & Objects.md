@@ -2,6 +2,7 @@
 ## 1. Create a class with attribute and print them:
 ````java[]
 
+
 import java.util.*;
 public class Main
 {
