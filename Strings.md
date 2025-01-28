@@ -237,10 +237,3 @@ public class Main
 	}
 }
 ````
-
-
-
-## 
-````java[]
-
-````
