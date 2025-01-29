@@ -8,7 +8,6 @@ class Node{
         this.next=null;
     }
 }
-
 //Step-4:
 class LinkedList{
     Node head,tail;
@@ -25,7 +24,6 @@ class LinkedList{
             tail=newNode;// Update tail to the new node
         }
     }
-  
     //Display 
     public void display() {
         Node temp = head;
@@ -35,7 +33,6 @@ class LinkedList{
         }
         // This will print all elements once.
     }
-  
     //Insert at Begining
     public void insertAtBegining(int data){
         Node newNode= new Node(data);
@@ -55,7 +52,6 @@ class LinkedList{
         
     }
 }
-
 //Step-3: Main class
 public class Main{
 	public static void main(String[] args) {
@@ -65,7 +61,6 @@ public class Main{
 		link.insert(300);
 		System.out.println("Insert at Specific Position:");
 		link.insertAtSpecificPos(4181,2);
-		link.display();// This will print 500, 100, 200, 300
+		link.display();// This will print 100, 200, 4181, 300
 	}
 }
-
