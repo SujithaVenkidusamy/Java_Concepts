@@ -2,16 +2,18 @@
 class Node{
     int data;
     Node next;
+	
     //Step-2: Create a constructor
     Node(int data){
         this.data=data;
         this.next=null;
     }
 }
+
 //Step-4:
 class LinkedList{
     Node head,tail;
-    //Insert
+    //Insert at End
     public void insert(int data){
         Node newNode=new Node(data);
         //newNode.next=head;//This make the code to run in a loop
@@ -24,15 +26,28 @@ class LinkedList{
             tail=newNode;// Update tail to the new node
         }
     }
-    //Display
+    
+     //Delete at Begining
+    public void deleteAtBegining(){
+        if(head==null){
+            head=head.next;
+        }
+    }
+    
+    //Display 
     public void display() {
         Node temp = head;
         while (temp != null) { // Iterate until temp is null
-            System.out.println(temp.data);
+            System.out.print(temp.data); // Print the data
+            if (temp.next != null) {
+                System.out.print(" -> "); // Print the arrow if there is a next node
+            }
             temp = temp.next; // Move to the next node
         }
-        // This will print all elements once.
+        System.out.println(" -> null"); // Indicate the end of the list
     }
+        // This will print all elements once.
+    
 }
 //Step-3: Main class
 public class Main{
@@ -41,6 +56,7 @@ public class Main{
 		link.insert(100);
 		link.insert(200);
 		link.insert(300);
-		link.display();// This will print 100, 200, 300
+		System.out.println("Original elements:");
+		link.display();// This will print 100, 200, 300 with link
 	}
 }
