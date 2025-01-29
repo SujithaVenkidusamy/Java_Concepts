@@ -28,11 +28,16 @@ class LinkedList{
     public void display() {
         Node temp = head;
         while (temp != null) { // Iterate until temp is null
-            System.out.println(temp.data);
+            System.out.print(temp.data); // Print the data
+            if (temp.next != null) {
+                System.out.print(" -> "); // Print the arrow if there is a next node
+            }
             temp = temp.next; // Move to the next node
         }
-        // This will print all elements once.
+        System.out.println(" -> null"); // Indicate the end of the list
     }
+        // This will print all elements once.
+    
     //Insert at Begining
     public void insertAtBegining(int data){
         Node newNode= new Node(data);
@@ -59,6 +64,8 @@ public class Main{
 		link.insert(100);
 		link.insert(200);
 		link.insert(300);
+		System.out.println("Original List :");
+		link.display();
 		System.out.println("Insert at Specific Position:");
 		link.insertAtSpecificPos(4181,2);
 		link.display();// This will print 100, 200, 4181, 300
