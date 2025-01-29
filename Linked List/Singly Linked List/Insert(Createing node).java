@@ -56,7 +56,7 @@ public class Main{
 		link.insert(100);
 		link.insert(200);
 		link.insert(300);
-		System.out.println("Original elements:");
+		System.out.println("The List:");
 		link.display();// This will print 100, 200, 300 with link
 	}
 }
