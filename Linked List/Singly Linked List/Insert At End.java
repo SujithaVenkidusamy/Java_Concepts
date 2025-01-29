@@ -55,6 +55,6 @@ public class Main{
 		link.insert(300);
 		System.out.println("Insert at End:");
 		link.insert(500);
-		link.display();// This will print 500, 100, 200, 300
+		link.display();// This will print 100, 200, 300, 500
 	}
 }
