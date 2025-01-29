@@ -2,6 +2,7 @@
 class Node{
     int data;
     Node next;
+	
     //Step-2: Create a constructor
     Node(int data){
         this.data=data;
@@ -11,6 +12,7 @@ class Node{
 //Step-4:
 class LinkedList{
     Node head,tail;
+	
     //Insert
     public void insert(int data){
         Node newNode=new Node(data);
@@ -24,6 +26,7 @@ class LinkedList{
             tail=newNode;// Update tail to the new node
         }
     }
+	
     //Display 
     public void display() {
         Node temp = head;
@@ -33,6 +36,7 @@ class LinkedList{
         }
         // This will print all elements once.
     }
+	
     //Insert at Begining
     public void insertAtBegining(int data){
         Node newNode= new Node(data);
