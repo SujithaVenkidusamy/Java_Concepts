@@ -39,7 +39,7 @@ class LinkedList{
             }
             temp = temp.next; // Move to the next node
         }
-        System.out.println(" -> null"); // Indicate the end of the list
+        System.out.println(); // Indicate the end of the list
     }
         // This will print all elements once.
     
