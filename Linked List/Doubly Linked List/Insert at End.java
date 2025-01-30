@@ -28,7 +28,7 @@ class LinkedList{
         }
     }
     
-    //Insert at new
+    //Insert at End
     public void insertAtEnd(int data){
         Node newNode=new Node(data);
         if(tail==null){// If the list is empty
@@ -71,7 +71,7 @@ public class Main{
 		link.insertAtBegining(300);// Insert data at the beginning //Node 3
 		link.insertAtBegining(200);//Node 2
 		link.insertAtBegining(100);//Node 1
-		link.insertAtEnd(400);//Insert at End //Node4
+		link.insertAtEnd(400);//Insert at End
 		System.out.println("The List:");
 		link.display();// Display the linked list
 	}
