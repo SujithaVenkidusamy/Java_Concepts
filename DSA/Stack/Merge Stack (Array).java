@@ -1,7 +1,7 @@
 class CustomStack {
-    private int[] arr;
-    private int top;
-    private int capacity;
+    int[] arr;      // Array to hold stack elements
+    int top;        // Index of the top element
+    int capacity;   // Maximum capacity of the stack
 
     // Constructor to initialize the stack
     public CustomStack(int size) {
@@ -36,15 +36,6 @@ class CustomStack {
     // Get the number of elements in the stack
     public int size() {
         return top + 1;
-    }
-
-    // Get the elements in the stack
-    public int[] getElements() {
-        int[] elements = new int[size()];
-        for (int i = 0; i < size(); i++) {
-            elements[i] = arr[i];
-        }
-        return elements;
     }
 }
 
