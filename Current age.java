@@ -3,10 +3,10 @@ public class Main
 {
 	public static void main(String[] args) {
 	   Scanner s=new Scanner(System.in);
+	   System.out.print("Birth year:");
 	   int a=s.nextInt();
-	   System.out.println("Birth year:"+a);
+	   System.out.print("Current year:");
 	   int b=s.nextInt();
-	   System.out.println("Current year:"+b);
 	   int c=(100-a)+b;
 	   int d=b-a;
 	   if(a>b){
