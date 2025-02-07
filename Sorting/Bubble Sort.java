@@ -3,7 +3,7 @@ public class Main
 {
 	public static void main(String[] args) {
 	    int arr[]={3,1,4,5,2};
-	    BubbleSort(arr);
+	    BubbleSort(arr);//Function call
 		
 	}
 	public static void BubbleSort(int arr[]){
@@ -16,6 +16,6 @@ public class Main
 	            }
 	        }
 	    }
-	    System.out.print(Arrays.toString(arr));
+	    System.out.print(Arrays.toString(arr));//Default function
 	}
 }
