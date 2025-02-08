@@ -1,7 +1,4 @@
-### SWITCH CASE
-
 import java.util.Scanner;
-
 public class VendingMachine {
 
     public static void coffee() {
