@@ -67,15 +67,15 @@ public class Main {
         root.insert(root, 15);
         root.insert(root, 26);
         
-        System.out.println("In-order Traversal of the BT:");
+        System.out.print("In-order Traversal : ");
         root.inOrderTraversal(root);//Method call
         System.out.println();
         
-        System.out.println("Pre-order Traversal of the BT:");
+        System.out.print("Pre-order Traversal : ");
         root.preOrderTraversal(root);//Method call
         System.out.println();
         
-        System.out.println("Post-order Traversal of the BT:");
+        System.out.print("Post-order Traversal : ");
         root.postOrderTraversal(root);//Method call
         
     }
