@@ -85,7 +85,7 @@ public class Main {
         
         Kruskal_Operations kru = new Kruskal_Operations(edgeDB);
         kru.sort();
-        int totalWeight = kru.buildMST(9);
+        int totalWeight = kru.buildMST(9);//(8)
         
         System.out.print("Total Wright of MST: "+totalWeight);
     }
